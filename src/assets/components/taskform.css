@@ -1,0 +1,49 @@
+.app_header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 80px;
+}
+
+.app_header form {
+  width: 80%;
+}
+.task_form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.task_input {
+  font-size: 20px;
+  font-weight: 500;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 10px;
+  width: 60%;
+  margin-right: 10px;
+  margin-bottom: 12px;
+}
+
+.task_status {
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 12px;
+}
+.submit {
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #3b31ac;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 12px;
+  color: white;
+  cursor: pointer;
+}
